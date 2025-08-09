@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Libre+Baskerville&display=swap');
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: 'Libre Baskerville', serif;
+  line-height: 1.6;
+  background-color: #f8f4e3; /* soft parchment */
+  color: #2a2a2a;
+}
+
+header, main, footer {
+  max-width: 40em;
+  margin: auto;
+  padding: 25px 30px;
+  background-color: #fffefa;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+header:hover, main:hover, footer:hover {
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+
+h1, h2 {
+  font-family: 'DM Serif Display', serif;
+  text-align: center;
+  color: #3e3e3e;
+  letter-spacing: 0.5px;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.7em;
+  color: #5c4d3d; /* subtle dark tan */
+}
+
+.top-nav, .bottom-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  margin: 20px 0;
+}
+
+.top-nav a, .bottom-nav a {
+  text-decoration: none;
+  color: #5c4d
+
+}
